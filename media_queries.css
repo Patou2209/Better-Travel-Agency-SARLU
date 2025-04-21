@@ -1,6 +1,13 @@
 /* Media queries, Tablet */
 
 @media(max-width:799px) {
+  #titre{
+    font-size: 32px;
+  }
+  h4 {
+    font-size: 15px;
+    color: #222;
+  }
     .section-p1{
       padding: 20px 20px;
     }
@@ -115,6 +122,10 @@
       
   }
   @media(max-width:999px){
+    h4 {
+      font-size: 16px;
+      color: #222;
+    }
     .section-p1{
       padding: 15px 30px;
     }
@@ -123,7 +134,7 @@
     }
   }
   #hero h1{
-    font-size: x-large;
+    font-size: large;
   }
   #hero::after {
     content: "";
@@ -139,6 +150,10 @@
    
   /* Small devices */
   @media (max-width: 477px) {
+    h4 {
+      font-size: 15px;
+      color: #222;
+    }
   
     .section-p1{
       padding: 10px 20px;

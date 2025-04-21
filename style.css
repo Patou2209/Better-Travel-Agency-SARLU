@@ -18,16 +18,14 @@ html {
 }
 
 /* Global Styles */
+#titre{
+  font-size: 30px;
+}
 
 h1 {
   font-size: 50px;
   line-height: 64px;
   color: #222;
-}
-#titre{
-  font-family: "Italianno", cursive;
-  color: red; 
-  font-size: 25px;
 }
 
 h2 {
