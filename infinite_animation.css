@@ -67,32 +67,44 @@
 
 .item4 {
   animation-delay: calc(40s / 8 * (8 - 4) * -1);
-  background-image: url('img/bourse2.jpg');
+  background-image: url('img/bourse\ full1.jpg');
   background-size: cover;
   background-position: center;
 }
 
 .item5 {
   animation-delay: calc(40s / 8 * (8 - 5) * -1);
-  background-image: url('img/dubai.jpg');
+  background-image: url('img/partenaire.jpg');
   background-size: cover;
   background-position: center;
 }
 
 .item6 {
   animation-delay: calc(40s / 8 * (8 - 6) * -1);
-  background-image: url('img/sheng.jpg');
+  background-image: url('img/kebal\ pass.jpg');
   background-size: cover;
   background-position: center;
 }
 
 .item7 {
   animation-delay: calc(40s / 8 * (8 - 7) * -1);
-  background-image: url('img/admi.jpg');
+  background-image: url('img/fond\ better.jpg');
   background-size: cover;
   background-position: center;
 }
 
+.item8 {
+  animation-delay: calc(40s / 8 * (8 - 8) * -1);
+  background-image: url('img/item.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.item8 {
+  animation-delay: calc(40s / 8 * (8 - 8) * -1);
+  background-image: url('img/item.jpg');
+  background-size: cover;
+  background-position: center;
+}
 .item8 {
   animation-delay: calc(40s / 8 * (8 - 8) * -1);
   background-image: url('img/item.jpg');
