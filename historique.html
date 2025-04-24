@@ -5,13 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>A propos </title>
+    <title>Historique </title>
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="media_queries.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Italianno&family=Oswald:wght@200..700&family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="grid.css">
 </head>
 
     <body>
@@ -21,8 +22,8 @@
         <div>
             <ul id="navbar">
                 <li><a  href="index.html">Acceuil</a></li>
-                <li><a class="active" href="about.html">a propos</a></li>
-                <li><a  href="historique.html">Historique</a></li>
+                <li><a  href="about.html">a propos</a></li>
+                <li><a class="active"  href="historique.html">Historique</a></li>
                 <li><a  href="contact.html">contact</a></li>
                 <a href="#" id="close"><i class="far fa-times"></i></a>
             </ul>
@@ -33,43 +34,69 @@
     </section>
 
     <section id="page-header" class="contact">
-            <h4 id="titre" style="font-family: 'Robonto', cursive !important;">A propos de Nous</h4>
-            <h5 >En savoir plus sur nous </h5> 
-        </section>
-        
-        
+        <h4 id="titre" style="font-family: 'Robonto', cursive !important;">Historique</h4>
+        <h5 > Faites comme Eux </h5> 
     </section>
 
-    <section id="about-head" class="section-p1">
-            <h4>Qui sommes-nous?</h4>
-            <p>Better Travel Agency SARLU est une agence de voyage internationale implantée en République Démocratique du Congo, avec son siège à Kinshasa et une représentation provinciale à Kikwit. Forte de son enracinement local et de son ouverture sur le monde, notre agence accompagne aussi bien les Congolais que les voyageurs internationaux dans la réalisation de leurs projets de voyage.</p>
+    <!--Container principal-->
 
-            <p style="text-align: justify;">
-            Notre mission est claire : offrir des expériences de voyage sûres, enrichissantes et parfaitement organisées, à destination des cinq continents. Que ce soit pour le tourisme, les études, les affaires ou les loisirs, nous nous engageons à rendre chaque déplacement fluide, agréable et inoubliable.
-            </p>
-
-            <h4>Notre vision</h4>
-
-            <p style="text-align: justify;">Faire du voyage un art de vivre accessible, sécurisé et personnalisé, pour toutes celles et ceux qui rêvent de découvrir le monde, ou de redécouvrir leur propre continent avec un nouveau regard. </p>
-
-            
-    </section>
-
-    <!--<section id="about-app" class="section-p1">
-        <div class="video">
-            <div class="banner-box banner-box2">
-                <div class="slideshow-container">
-                    <div class="mySlides fade">
-                        <img src="img/team .jpg" style="width: 100%; height: 100vh;">
-                    </div>
-                    <div class="mySlides fade">
-                        <img src="img/laurent.jpg" style="width: 100%; height: 100vh;">
-                    </div>
-                </div>
+    <section class="gallery">
+        <div class="container">
+          <h2 class="gallery-title"> Gallerie</h2>
+          <p class="gallery-subtitle">
+            Ils nous ont fait confiance, Vous pouvez aussi
+          </p>
+          <div class="gallery-grid">
+            <div class="gallery-item a">
+              <img src="img/kebal1.jpg" alt="Gallery Image 1" />
             </div>
+            <div class="gallery-item b">
+              <img src="img/kebal confiance.jpg" alt="Gallery Image 2" />
+            </div>
+            <div class="gallery-item c">
+              <img src="img/kebal3.jpg" alt="Gallery Image 3" />
+            </div>
+            <div class="gallery-item d">
+              <img src="img/grid3.jpg" alt="Gallery Image 4" />
+            </div>
+            <div class="gallery-item e">
+              <img src="img/mbe1.jpg" alt="Gallery Image 5" />
+            </div>
+            <div class="gallery-item f">
+              <img src="img/test.jpg" alt="Gallery Image 6" />
+            </div>
+            <div class="gallery-item g">
+              <img src="img/grid1.jpg" alt="Gallery Image 7" />
+            </div>
+            <div class="gallery-item h">
+              <img src="img/bourse full1.jpg" alt="Gallery Image 8" />
+            </div>
+            <div class="gallery-item i">
+              <img src="img/grid9.jpg" alt="Gallery Image 9" />
+            </div>
+            <div class="gallery-item j">
+              <img src="img/grid4.jpg" alt="Gallery Image 10" />
+            </div>
+            <div class="gallery-item k">
+              <img src="img/grid5.jpg" alt="Gallery Image 11" />
+            </div>
+            <div class="gallery-item l">
+              <img src="img/grid12.jpg" alt="Gallery Image 12" />
+            </div>
+            <div class="gallery-item m">
+              <img src="img/laurent.jpg" alt="Gallery Image 13" />
+            </div>
+            <div class="gallery-item n">
+              <img src="img/kebal-univ.jpg" alt="Gallery Image 14" />
+            </div>
+          </div>
         </div>
-    </section>-->
+      </section>
+    </main>
+    
+    
 
+    <!--Container footer-->
     <footer class="section-p1">
         <div class="col">
             <img class="logo" src="img/LOGO_FLY_BETTER-removebg-preview.png" alt="" width="50px" height="50px">
@@ -99,7 +126,7 @@
         </div>
         <div class="col">
             <h4>A propos</h4>
-            <a href="#">A propos de Nous</a>
+            <a href="about.html">A propos de Nous</a>
             <a href="#">Privacy Policy</a>
             <a href="#">Terms & Conditions</a>
             <a href="contact.html">Contactez nous</a>
@@ -120,26 +147,6 @@
             <p>Designed by <span>TECHNOWEB</span></p>
         </div>
     </footer>
-
-        
-        <!-- JavaScript for slideshow -->
-        <script>
-            let slideIndex = 0;
-            showSlides();
-
-            function showSlides() {
-                let i;
-                let slides = document.getElementsByClassName("mySlides");
-                for (i = 0; i < slides.length; i++) {
-                    slides[i].style.display = "none";  
-                }
-                slideIndex++;
-                if (slideIndex > slides.length) {slideIndex = 1}    
-                slides[slideIndex-1].style.display = "block";  
-                setTimeout(showSlides, 4000); // Change image every 4 seconds
-            }
-        </script>
-        
         <script src="script.js"></script>
 </body>
 
